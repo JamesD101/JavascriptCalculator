@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0 ;
+}
+
+body{
+    background: #2C3539;
+}
+
+#head-text{
+    color: #ffffff;
+    padding: 20px 0 20px 0;
+
+}
+
+#result-show{
+    color: #ffffff;
+    padding-top: 50px;
+    background-color: #2C3539;
+    width: 500px;
+    height: 90px;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 50px;
+
+}
+#result-text{
+    font-size: 50px;
+
+}
+.result-wrapper{
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+#calculation-show{
+   color: #ffffff;
+    padding-top: 10px;
+    background-color: #2C3539;
+    width: 500px;
+    height: 40px;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.first-row-wrapper{
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 20px;
+
+}
+
+.second-row-wrapper{
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 2px;
+
+}
+.third-row-wrapper{
+    margin: 2px auto;
+    max-width: 400px;
+    margin-left: 470px;
+
+}
+.side-row-wrapper{
+    margin: 0 auto;
+    max-width: 400px;
+    margin-left: 848px;
+    margin-top: -144px;
+}
+.container-first{
+    background-color:#2C3539;
+
+}
+
+.button{
+    border: 1px solid #C0C0C0;
+    width: 122px;
+    height: 70px;
+    font-size: 30px;
+    background-color: #C0C0C0;
+    color: white;
+}
+.button-op{
+    border: 1px solid #A9A9A9;
+    width: 122px;
+    height: 70px;
+    font-size: 30px;
+    background-color: #A9A9A9;
+    color: white;
+}
+.button-equal{
+    border: 1px solid #A9A9A9;
+    width: 122px;
+    height: 142px;
+    font-size: 30px;
+    background-color: #A9A9A9;
+    color: white;
+}
+
+.button-zero{
+    border: 1px solid #A9A9A9;
+    width: 248px;
+    height: 70px;
+    font-size: 30px;
+    background-color: #A9A9A9;
+    color: white;
+}

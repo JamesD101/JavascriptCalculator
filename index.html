@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title> My Javascript Calculator </title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+  </head>
+<body>
+    <div class="text-center">
+      <h1 id="head-text"> My JavaScript Calculator </h1>
+    </div>
+
+    <form name = "calcform">
+      <div class="result-wrapper">
+          <input type="text" id="result-show" readonly="readonly" name="resulttext"/>
+          <input type="text" id="calculation-show" placeholder="0" name="calculatortext"/>
+      </div>
+      <div class="first-row-wrapper">
+        <div class="container-first">
+          <input type="button" value="CE" id='cancel-button' class="button-op" onclick = "cclear()"/>
+          <input type="button" value="/" id='div-button' class="button-op" name= "btndiv" onclick = "getOperand('/')"/>
+          <input type="button" value="X" id='mult-button' class="button-op" name= "btnmul" onclick = "getOperand('*')"/>
+          <input type="button" value="<" id='backspace-button' class="button-op" onclick = "backspace()"/>
+        </div>
+      </div>
+      <div class="second-row-wrapper">
+        <div class="container-first">
+          <input type="button" value="7" id='input' class="button" name= "btn7" onclick = "getNumber(7)" />
+          <input type="button" value="8" id='input' class="button" name= "btn8" onclick = "getNumber(8)"/>
+          <input type="button" value="9" id='input' class="button" name= "btn9" onclick = "getNumber(9)"/>
+          <input type="button" value="+" id='addition-button' class="button" name= "btnadd" onclick = "getOperand('+')"/>
+        </div>
+      </div>
+      <div class="second-row-wrapper">
+        <div class="container-first">
+          <input type="button" value="4" id='input' class="button"name= "btn4" onclick = "getNumber(4)"/>
+          <input type="button" value="5" id='input' class="button"name= "btn5" onclick = "getNumber(5)"/>
+          <input type="button" value="6" id='input' class="button"name= "btn6" onclick = "getNumber(6)"/>
+          <input type="button" value="-" id='minus-button' class="button" name= "btnminus" onclick = "getOperand('-')"/>
+        </div>
+      </div>
+      <div class="third-row-wrapper">
+        <div class="container-first">
+          <input type="button" value="1" id='input' class="button" name= "btn1" onclick = "getNumber(1)"/>
+          <input type="button" value="2" id='input' class="button"name= "btn2" onclick = "getNumber(2)"/>
+          <input type="button" value="3" id='input' class="button"name= "btn3" onclick = "getNumber(3)"/>
+        </div>
+      </div>
+      <div class="third-row-wrapper">
+        <div class="container-first">
+          <input type="button" value="0" id='zero-button' class="button-zero" name= "btn0" onclick = "getNumber(0)"/>
+          <input type="button" value="." id='dot-button' class="button" name= "btndot" onclick = "getOperand('.')"/>
+        </div>
+      </div>
+      <div class="side-row-wrapper">
+        <div class="container-first">
+          <input class="button-equal" type="button" value="=" id="button-equal" onclick="compute()"/>
+        </div>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
